@@ -8,3 +8,7 @@ deploy:
   app: asgardian-walkure-core
 before_install:
   - chmod +x mvnw
+# safelist
+branches:
+  only:
+    - master
