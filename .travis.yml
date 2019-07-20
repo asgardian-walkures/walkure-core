@@ -11,7 +11,7 @@ deploy:
 before_install:
   - chmod +x mvnw
 # safelist
-branches:
-  only:
-    - release/liv
-    - dev
+#branches:
+#  only:
+#    - release/liv
+#    - dev
