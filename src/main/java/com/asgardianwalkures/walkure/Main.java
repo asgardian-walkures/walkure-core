@@ -8,7 +8,7 @@ public class Main {
 
     @GetMapping("/main")
     public String getMain() {
-        return "Main Page";
+        return "It Works!";
     }
 
 }
