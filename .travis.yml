@@ -6,7 +6,8 @@ deploy:
   api-key:
     secure: $HEROKU_API_KEY
   app: asgardian-walkure-core
-  on: release/liv
+  on:
+    branch: release/liv
 before_install:
   - chmod +x mvnw
 # safelist
